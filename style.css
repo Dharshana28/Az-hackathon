@@ -1,0 +1,123 @@
+/* style.css */
+
+body {
+  width: 340px;
+  padding: 15px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+h2 {
+  margin: 0 0 15px 0;
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+}
+
+h3 {
+  margin: 0 0 15px 0;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+}
+
+#inputText {
+  width: 100%;
+  height: 100px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+#simplifyBtn {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+#simplifyBtn:hover {
+  background-color: #45a049;
+}
+
+#settingsBtn {
+  width: 100%;
+  padding: 8px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+#settingsBtn:hover {
+  background-color: #0b7dda;
+}
+
+#outputContainer {
+  margin-top: 15px;
+}
+
+#simplifiedText {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 14px;
+  color: #555;
+  min-height: 80px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+#settingsPanel {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+#settingsPanel label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#settingsPanel input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#saveSettings {
+  width: 100%;
+  padding: 8px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.simplified-word {
+  display: inline;
+  position: relative;
+}
